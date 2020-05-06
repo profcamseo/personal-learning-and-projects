@@ -1,0 +1,12 @@
+// Constants
+
+$font-stack:    Helvetica, sans-serif;
+$primary-color: #3e33a1b0;
+$secondary-color: #9b4747;
+$background-color: white;
+
+// Mixin
+
+@mixin test {
+    font-size: 10em;
+}
