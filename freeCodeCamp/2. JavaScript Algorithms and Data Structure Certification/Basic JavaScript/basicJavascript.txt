@@ -144,3 +144,95 @@ Example
 
 myVar = 16 / 2; // assigned 8
 
+
+============================
+Increment a Number with JavaScript
+============================
+
+You can easily increment or add one to a variable with the ++ operator.
+
+i++;
+
+is the equivalent of
+
+i = i + 1;
+
+Note
+The entire line becomes i++;, eliminating the need for the equal sign.
+
+============================
+Decrement a Number with JavaScript
+============================
+
+You can easily decrement or decrease a variable by one with the -- operator.
+
+i--;
+
+is the equivalent of
+
+i = i - 1;
+
+Note
+The entire line becomes i--;, eliminating the need for the equal sign.
+
+
+
+============================
+Create Decimal Numbers with JavaScript
+============================
+
+We can store decimal numbers in variables too. Decimal numbers are sometimes referred to as floating point numbers or floats.
+
+Note
+Not all real numbers can accurately be represented in floating point. This can lead to rounding errors. Details Here.
+
+============================
+Multiply Two Decimals with JavaScript
+============================
+
+In JavaScript, you can also perform calculations with decimal numbers, just like whole numbers.
+
+Let's multiply two decimals together to get their product.
+
+============================
+Divide One Decimal by Another with JavaScript
+============================
+
+Now let's divide one decimal by another.
+
+============================
+Finding a Remainder in JavaScript
+============================
+
+The remainder operator % gives the remainder of the division of two numbers.
+
+Example
+
+5 % 2 = 1 because
+Math.floor(5 / 2) = 2 (Quotient)
+2 * 2 = 4
+5 - 4 = 1 (Remainder)
+Usage
+In mathematics, a number can be checked to be even or odd by checking the remainder of the division of the number by 2.
+
+17 % 2 = 1 (17 is Odd)
+48 % 2 = 0 (48 is Even)
+Note
+The remainder operator is sometimes incorrectly referred to as the "modulus" operator. It is very similar to modulus, but does not work properly with negative numbers.
+
+============================
+Compound Assignment With Augmented Addition
+============================
+
+In programming, it is common to use assignments to modify the contents of a variable. Remember that everything to the right of the equals sign is evaluated first, so we can say:
+
+myVar = myVar + 5;
+
+to add 5 to myVar. Since this is such a common pattern, there are operators which do both a mathematical operation and assignment in one step.
+
+One such operator is the += operator.
+
+var myVar = 1;
+myVar += 5;
+console.log(myVar); // Returns 6
+

@@ -101,3 +101,79 @@ Divide One Number by Another with JavaScript
 
 var quotient = 66 / 33;
 
+
+/*============================
+Increment a Number with JavaScript
+============================*/
+
+var myVar = 87;
+
+// Only change code below this line
+myVar++;
+
+/*============================
+Decrement a Number with JavaScript
+============================*/
+
+var myVar = 11;
+
+// Only change code below this line
+myVar--;
+
+
+/*============================
+Create Decimal Numbers with JavaScript
+============================*/
+
+var ourDecimal = 5.7;
+
+// Only change code below this line
+
+var myDecimal = 2.1;
+
+/*============================
+Multiply Two Decimals with JavaScript
+============================*/
+
+var product = 2.0 * 2.5;
+
+/*============================
+Divide One Decimal by Another with JavaScript
+============================*/
+
+var quotient = 4.4 / 2.0;
+
+/*============================
+Finding a Remainder in JavaScript
+============================*/
+
+var remainder;
+remainder = 11 % 3;
+
+/*============================
+Compound Assignment With Augmented Addition
+============================*/
+
+var a = 3;
+var b = 17;
+var c = 12;
+
+// Only modify code below this line
+
+a += 12;
+b += 9;
+c += 7;
+
+/*============================
+Compound Assignment With Augmented Subtraction
+============================*/
+
+var a = 11;
+var b = 9;
+var c = 3;
+
+// Only modify code below this line
+
+a -= 6;
+b -= 15;
+c -= 1;
