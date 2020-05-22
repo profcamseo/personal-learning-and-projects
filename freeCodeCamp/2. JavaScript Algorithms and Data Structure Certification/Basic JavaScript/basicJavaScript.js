@@ -177,3 +177,99 @@ var c = 3;
 a -= 6;
 b -= 15;
 c -= 1;
+
+/*============================
+Compound Assignment With Augmented Multiplication
+============================*/
+
+var a = 5;
+var b = 12;
+var c = 4.6;
+
+// Only modify code below this line
+
+a *= 5;
+b *= 3;
+c *= 10;
+
+/*============================
+Compound Assignment With Augmented Division
+============================*/
+
+var a = 48;
+var b = 108;
+var c = 33;
+
+// Only modify code below this line
+
+a /= 12;
+b /= 4;
+c /= 11;
+
+/*============================
+Declare String Variables
+============================*/
+
+// Example
+var firstName = "Alan";
+var lastName = "Turing";
+
+// Only change code below this line
+
+var myFirstName = "Cameron";
+var myLastName = "Milner";
+
+/*============================
+Escaping Literal Quotes in Strings
+============================*/
+
+var myStr = "I am a \"double quoted\" string inside \"double quotes\"."; // Change this line
+
+/*============================
+Quoting Strings with Single Quotes
+============================*/
+
+var myStr = '<a href="http://www.example.com" target="_blank">Link</a>';
+
+
+/*============================
+Escape Sequences in Strings
+============================*/
+
+var myStr = "FirstLine\n\t\\SecondLine\nThirdLine";// Change this line
+
+/*============================
+Concatenating Strings with Plus Operator
+============================*/
+
+// Example
+var ourStr = "I come first. " + "I come second.";
+
+// Only change code below this line
+
+var myStr = "This is the start. " + "This is the end.";
+
+/*============================
+Concatenating Strings with the Plus Equals Operator
+============================*/
+
+// Example
+var ourStr = "I come first. ";
+ourStr += "I come second.";
+
+// Only change code below this line
+
+var myStr = "This is the first sentence. ";
+myStr += "This is the second sentence.";
+
+/*============================
+Constructing Strings with Variables
+============================*/
+
+// Example
+var ourName = "freeCodeCamp";
+var ourStr = "Hello, our name is " + ourName + ", how are you?";
+
+// Only change code below this line
+var myName = "Cameron";
+var myStr = "Hello, our name is " + myName + " Milner";
