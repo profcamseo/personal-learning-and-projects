@@ -2,7 +2,6 @@
 Comment Your JavaScript Code
 ============================*/
 
-
 // This is an in-line comment.
 /* This is a
 multi-line comment */
@@ -86,12 +85,9 @@ Subtract One Number from Another with JavaScript
 
 var difference = 45 - 33;
 
-
-
 /*============================
 Multiply Two Numbers with JavaScript
 ============================*/
-
 
 var product = 8 * 10;
 
@@ -100,7 +96,6 @@ Divide One Number by Another with JavaScript
 ============================*/
 
 var quotient = 66 / 33;
-
 
 /*============================
 Increment a Number with JavaScript
@@ -119,7 +114,6 @@ var myVar = 11;
 
 // Only change code below this line
 myVar--;
-
 
 /*============================
 Create Decimal Numbers with JavaScript
@@ -223,7 +217,7 @@ var myLastName = "Milner";
 Escaping Literal Quotes in Strings
 ============================*/
 
-var myStr = "I am a \"double quoted\" string inside \"double quotes\"."; // Change this line
+var myStr = 'I am a "double quoted" string inside "double quotes".'; // Change this line
 
 /*============================
 Quoting Strings with Single Quotes
@@ -231,12 +225,11 @@ Quoting Strings with Single Quotes
 
 var myStr = '<a href="http://www.example.com" target="_blank">Link</a>';
 
-
 /*============================
 Escape Sequences in Strings
 ============================*/
 
-var myStr = "FirstLine\n\t\\SecondLine\nThirdLine";// Change this line
+var myStr = "FirstLine\n\t\\SecondLine\nThirdLine"; // Change this line
 
 /*============================
 Concatenating Strings with Plus Operator
@@ -273,3 +266,242 @@ var ourStr = "Hello, our name is " + ourName + ", how are you?";
 // Only change code below this line
 var myName = "Cameron";
 var myStr = "Hello, our name is " + myName + " Milner";
+
+/*============================
+Appending Variables to Strings
+============================*/
+
+// Example
+var anAdjective = "awesome!";
+var ourStr = "freeCodeCamp is ";
+ourStr += anAdjective;
+
+// Only change code below this line
+
+var someAdjective = "fun";
+var myStr = "Learning to code is ";
+myStr += someAdjective;
+
+/*============================
+Find the Length of a String
+============================*/
+
+// Example
+var firstNameLength = 0;
+var firstName = "Ada";
+
+firstNameLength = firstName.length;
+
+// Setup
+var lastNameLength = 0;
+var lastName = "Lovelace";
+
+// Only change code below this line.
+
+lastNameLength = lastName.length;
+
+/*============================
+Use Bracket Notation to Find the First Character in a String
+============================*/
+
+// Example
+var firstLetterOfFirstName = "";
+var firstName = "Ada";
+
+firstLetterOfFirstName = firstName[0];
+
+// Setup
+var firstLetterOfLastName = "";
+var lastName = "Lovelace";
+
+// Only change code below this line
+firstLetterOfLastName = lastName[0];
+
+/*============================
+Understand String Immutability
+============================*/
+
+// Setup
+var myStr = "Jello World";
+
+// Only change code below this line
+
+myStr = "Hello World"; // Fix Me
+
+/*============================
+Use Bracket Notation to Find the Nth Character in a String
+============================*/
+
+// Example
+var firstName = "Ada";
+var secondLetterOfFirstName = firstName[1];
+
+// Setup
+var lastName = "Lovelace";
+
+// Only change code below this line.
+var thirdLetterOfLastName = lastName[2];
+
+/*============================
+Use Bracket Notation to Find the Last Character in a String
+============================*/
+
+// Example
+var firstName = "Ada";
+var lastLetterOfFirstName = firstName[firstName.length - 1];
+
+// Setup
+var lastName = "Lovelace";
+
+// Only change code below this line.
+var lastLetterOfLastName = lastName[lastName.length - 1];
+
+/*============================
+Use Bracket Notation to Find the Nth-to-Last Character in a String
+============================*/
+
+// Example
+var firstName = "Ada";
+var thirdToLastLetterOfFirstName = firstName[firstName.length - 3];
+
+// Setup
+var lastName = "Lovelace";
+
+// Only change code below this line
+var secondToLastLetterOfLastName = lastName[lastName.length - 2];
+
+/*============================
+Word Blanks
+============================*/
+
+var myNoun = "dog";
+var myAdjective = "big";
+var myVerb = "ran";
+var myAdverb = "quickly";
+
+var wordBlanks =
+  "the " + myNoun + " " + myVerb + " " + myAdjective + " " + myAdverb; // Only change this line;
+
+/*============================
+Store Multiple Values in one Variable using JavaScript Arrays
+============================*/
+
+// Example
+var ourArray = ["John", 23];
+
+// Only change code below this line.
+var myArray = ["John", 23];
+
+/*============================
+Nest one Array within Another Array
+============================*/
+
+// Example
+var ourArray = [
+  ["the universe", 42],
+  ["everything", 101010],
+];
+
+// Only change code below this line.
+var myArray = [
+  ["the universe", 42],
+  ["everything", 101010],
+];
+
+/*============================
+Access Array Data with Indexes
+============================*/
+
+// Example
+var ourArray = [50, 60, 70];
+var ourData = ourArray[0]; // equals 50
+
+// Setup
+var myArray = [50, 60, 70];
+
+// Only change code below this line.
+
+var myData = myArray[0];
+
+/*============================
+Modify Array Data With Indexes
+============================*/
+
+// Example
+var ourArray = [18, 64, 99];
+ourArray[1] = 45; // ourArray now equals [18,45,99].
+
+// Setup
+var myArray = [18, 64, 99];
+
+// Only change code below this line.
+myArray[0] = 45;
+
+/*============================
+Access Multi-Dimensional Arrays With Indexes
+============================*/
+
+// Setup
+var myArray = [
+  [1, 2, 3],
+  [4, 5, 6],
+  [7, 8, 9],
+  [[10, 11, 12], 13, 14],
+];
+
+// Only change code below this line.
+var myData = myArray[2][1];
+
+/*============================
+Manipulate Arrays With push()
+============================*/
+
+// Example
+var ourArray = ["Stimpson", "J", "cat"];
+ourArray.push(["happy", "joy"]);
+// ourArray now equals ["Stimpson", "J", "cat", ["happy", "joy"]]
+
+// Setup
+var myArray = [
+  ["John", 23],
+  ["cat", 2],
+];
+
+// Only change code below this line.
+myArray.push(["dog", 3]);
+
+/*============================
+Manipulate Arrays With pop()
+============================*/
+
+// Example
+var ourArray = [1, 2, 3];
+var removedFromOurArray = ourArray.pop();
+// removedFromOurArray now equals 3, and ourArray now equals [1,2]
+
+// Setup
+var myArray = [
+  ["John", 23],
+  ["cat", 2],
+];
+
+// Only change code below this line.
+var removedFromMyArray = myArray.pop();
+
+/*============================
+Manipulate Arrays With shift()
+============================*/
+
+// Example
+var ourArray = ["Stimpson", "J", ["cat"]];
+var removedFromOurArray = ourArray.shift();
+// removedFromOurArray now equals "Stimpson" and ourArray now equals ["J", ["cat"]].
+
+// Setup
+var myArray = [
+  ["John", 23],
+  ["dog", 3],
+];
+
+// Only change code below this line.
+var removedFromMyArray = myArray.shift();
