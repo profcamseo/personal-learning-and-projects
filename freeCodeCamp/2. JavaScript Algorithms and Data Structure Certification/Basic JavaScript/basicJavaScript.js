@@ -789,3 +789,407 @@ testStrict(7);
 7 === 10;
 7 === 7;
 7 === "7";
+
+/*============================
+Practice comparing different values
+============================*/
+
+// Setup
+function compareEquality(a, b) {
+  if (a === b) {
+    // Change this line
+    return "Equal";
+  }
+  return "Not Equal";
+}
+
+// Change this value to test
+compareEquality(10, "10");
+
+10 === "10";
+"20" === 20;
+
+/*============================
+Comparison with the Inequality Operator
+============================*/
+
+// Setup
+function testNotEqual(val) {
+  if (val != 99) {
+    // Change this line
+    return "Not Equal";
+  }
+  return "Equal";
+}
+
+// Change this value to test
+testNotEqual(10);
+
+10 != 99;
+99 != "99";
+12 != 12;
+12 != "12";
+12 != "bob";
+
+/*============================
+Comparison with the Strict Inequality Operator
+============================*/
+
+// Setup
+function testStrictNotEqual(val) {
+  if (val !== 17) {
+    // Change this line
+    return "Not Equal";
+  }
+  return "Equal";
+}
+
+// Change this value to test
+testStrictNotEqual(10);
+
+17 !== 17;
+17 !== "17";
+17 !== 12;
+17 !== "bob";
+
+/*============================
+Comparison with the Greater Than Operator
+============================*/
+
+function testGreaterThan(val) {
+  if (val > 100) {
+    // Change this line
+    return "Over 100";
+  }
+
+  if (val > 10) {
+    // Change this line
+    return "Over 10";
+  }
+
+  return "10 or Under";
+}
+
+// Change this value to test
+testGreaterThan(10);
+
+0 > 10;
+10 > 10;
+11 > 10;
+99 > 10;
+100 > 10;
+101 > 100;
+150 > 100;
+
+/*============================
+Comparison with the Greater Than Or Equal To Operator
+============================*/
+
+function testGreaterOrEqual(val) {
+  if (val >= 20) {
+    // Change this line
+    return "20 or Over";
+  }
+
+  if (val >= 10) {
+    // Change this line
+    return "10 or Over";
+  }
+
+  return "Less than 10";
+}
+
+// Change this value to test
+testGreaterOrEqual(10);
+
+/*============================
+Comparison with the Less Than Operator
+============================*/
+
+function testLessThan(val) {
+  if (val < 25) {
+    // Change this line
+    return "Under 25";
+  }
+
+  if (val < 55) {
+    // Change this line
+    return "Under 55";
+  }
+
+  return "55 or Over";
+}
+
+// Change this value to test
+testLessThan(10);
+
+/*============================
+Comparison with the Less Than Or Equal To Operator
+============================*/
+
+function testLessOrEqual(val) {
+  if (val <= 12) {
+    // Change this line
+    return "Smaller Than or Equal to 12";
+  }
+
+  if (val <= 24) {
+    // Change this line
+    return "Smaller Than or Equal to 24";
+  }
+
+  return "More Than 24";
+}
+
+// Change this value to test
+testLessOrEqual(10);
+
+/*============================
+Comparisons with the Logical And Operator
+============================*/
+
+function testLogicalAnd(val) {
+  // Only change code below this line
+
+  if (val >= 25 && val <= 50) {
+    return "Yes";
+  }
+
+  // Only change code above this line
+  return "No";
+}
+
+// Change this value to test
+testLogicalAnd(10);
+
+/*============================
+Comparisons with the Logical Or Operator
+============================*/
+
+function testLogicalOr(val) {
+  // Only change code below this line
+
+  if (val < 10 || val > 20) {
+    return "Outside";
+  }
+
+  // Only change code above this line
+  return "Inside";
+}
+
+// Change this value to test
+testLogicalOr(15);
+
+/*============================
+Introducing Else Statements
+============================*/
+
+function testElse(val) {
+  var result = "";
+  // Only change code below this line
+
+  if (val > 5) {
+    result = "Bigger than 5";
+  } else {
+    result = "5 or Smaller";
+  }
+
+  // Only change code above this line
+  return result;
+}
+
+// Change this value to test
+testElse(4);
+
+/*============================
+Introducing Else If Statements
+============================*/
+
+function testElseIf(val) {
+  if (val > 10) {
+    return "Greater than 10";
+  } else if (val < 5) {
+    return "Smaller than 5";
+  } else {
+    return "Between 5 and 10";
+  }
+}
+// Change this value to test
+testElseIf(7);
+
+/*============================
+Logical Order in If Else Statements
+============================*/
+
+function orderMyLogic(val) {
+  if (val < 5) {
+    return "Less than 5";
+  } else if (val < 10) {
+    return "Less than 10";
+  } else {
+    return "Greater than or equal to 10";
+  }
+}
+
+// Change this value to test
+orderMyLogic(7);
+
+/*============================
+Chaining If Else Statements
+============================*/
+
+/*============================
+Golf Code
+============================*/
+
+/*============================
+Selecting from Many Options with Switch Statements
+============================*/
+
+/*============================
+Adding a Default Option in Switch Statements
+============================*/
+
+/*============================
+Multiple Identical Options in Switch Statements
+============================*/
+
+/*============================
+Replacing If Else Chains with Switch
+============================*/
+
+/*============================
+Returning Boolean Values from Functions
+============================*/
+
+/*============================
+Return Early Pattern for Functions
+============================*/
+
+/*============================
+Counting Cards
+============================*/
+
+/*============================
+Build JavaScript Objects
+============================*/
+
+/*============================
+Accessing Object Properties with Dot Notation
+============================*/
+
+/*============================
+Accessing Object Properties with Bracket Notation
+============================*/
+
+/*============================
+Accessing Object Properties with Variables
+============================*/
+
+/*============================
+Updating Object Properties
+============================*/
+
+/*============================
+Add New Properties to a JavaScript Object
+============================*/
+
+/*============================
+Delete Properties from a JavaScript Object
+============================*/
+
+/*============================
+Using Objects for Lookups
+============================*/
+
+/*============================
+Testing Objects for Properties
+============================*/
+
+/*============================
+Manipulating Complex Objects
+============================*/
+
+/*============================
+Accessing Nested Objects
+============================*/
+
+/*============================
+Accessing Nested Arrays
+============================*/
+
+/*============================
+Record Collection
+============================*/
+
+/*============================
+Iterate with JavaScript While Loops
+============================*/
+
+/*============================
+Iterate with JavaScript For Loops
+============================*/
+
+/*============================
+Iterate Odd Numbers With a For Loop
+============================*/
+
+/*============================
+Count Backwards With a For Loop
+============================*/
+
+/*============================
+Iterate Through an Array with a For Loop
+============================*/
+
+/*============================
+Nesting For Loops
+============================*/
+
+/*============================
+Iterate with JavaScript Do...While Loops
+============================*/
+
+/*============================
+Replace Loops using Recursion
+============================*/
+
+/*============================
+Profile Lookup
+============================*/
+
+/*============================
+Generate Random Fractions with JavaScript
+============================*/
+
+/*============================
+Generate Random Whole Numbers with JavaScript
+============================*/
+
+/*============================
+Generate Random Whole Numbers within a Range
+============================*/
+
+/*============================
+Use the parseInt Function
+============================*/
+
+/*============================
+Use the parseInt Function with a Radix
+============================*/
+
+/*============================
+Use the Conditional (Ternary) Operator
+============================*/
+
+/*============================
+se Multiple Conditional (Ternary) Operators
+============================*/
+
+/*============================
+Use Recursion to Create a Countdown
+============================*/
+
+/*============================
+Use Recursion to Create a Range of Numbers
+============================*/
