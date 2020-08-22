@@ -41,28 +41,53 @@ let codingRegex = /coding/; // Change this line
 let result = extractStr.match(codingRegex); // Change this line
 
 /*============================
-Ignore Case While Matching
+Find More Than the First Match
 ============================*/
 
-/*============================
-Ignore Case While Matching
-============================*/
+let twinkleStar = "Twinkle, twinkle, little star";
+let starRegex = /Twinkle/gi; // Change this line
+let result = twinkleStar.match(starRegex); // Change this line
 
 /*============================
-Ignore Case While Matching
+Match Anything with Wildcard Period
 ============================*/
 
-/*============================
-Ignore Case While Matching
-============================*/
+let exampleStr = "Let's have fun with regular expressions!";
+let unRegex = /.un/; // Change this line
+let result = unRegex.test(exampleStr);
 
 /*============================
-Ignore Case While Matching
+Match Single Character with Multiple Possibilities
 ============================*/
 
+let quoteSample =
+  "Beware of bugs in the above code; I have only proved it correct, not tried it.";
+let vowelRegex = /[aeiou]/gi; // Change this line
+let result = quoteSample.match(vowelRegex); // Change this line
+
 /*============================
-Ignore Case While Matching
+Match Letters of the Alphabet
 ============================*/
+
+let quoteSample = "The quick brown fox jumps over the lazy dog.";
+let alphabetRegex = /[a-z]/gi; // Change this line
+let result = quoteSample.match(alphabetRegex); // Change this line
+
+/*============================
+Match Numbers and Letters of the Alphabet
+============================*/
+
+let quoteSample = "Blueberry 3.141592653s are delicious.";
+let myRegex = /[h-s2-6]/gi; // Change this line
+let result = quoteSample.match(myRegex); // Change this line
+
+/*============================
+Match Single Characters Not Specified
+============================*/
+
+let quoteSample = "3 blind mice.";
+let myRegex = /[^aeiou0-9]/gi; // Change this line
+let result = quoteSample.match(myRegex); // Change this line
 
 /*============================
 Ignore Case While Matching
